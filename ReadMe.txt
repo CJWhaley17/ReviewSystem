@@ -8,3 +8,5 @@ I'm kinda curious about using Firebase, but if we scale it how the Spec sheet sa
 	for the free version and we will be screwed, and I'm not sure I'm willing to fork over 25/month for now.
 
 We can throw together some WireFrames and drop them in here as well. 
+
+8/15 edit: just to see if I can push from my Mac
