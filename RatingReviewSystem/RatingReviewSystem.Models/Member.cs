@@ -9,10 +9,24 @@ namespace RatingReviewSystem.Models
     public class Member
     {
         public int MemberId { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Major { get; set; }
-        public OrganizationRole Role { get; set; }
-        public string email { get; set; }
+
+        public int ChapterId { get; set; }
+
+        public int MemberTypeId { get; set; }
+        
+        public string MemberName { get; set; }
+
+        public string MemberPhone { get; set; }
+
+        public string MemberEmail { get; set; }
+
+        public string PasswordHashed { get; set; }
+
+        public string MemberIsActive { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+
+        public DateTime LastModifiedDate { get; set; }
+
     }
 }
